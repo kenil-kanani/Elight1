@@ -1,0 +1,22 @@
+# React Element
+-> It is a lightwight description of piece of UI.
+-> In simple terms, a react element is a simple object, describing what properties an actual DOM node should contain.
+-> By just creating a react element, it wan't automatically render on the DOM. You need to make some extra effort.
+-> How a react element object looks like?
+    {
+        type: 'button',
+        props: {
+            className: 'btn btn-primary',
+            children: 'Submit'
+        }
+    }
+
+equivalent to
+
+    <button className="btn btn-primary">Submit</button>
+
+# CreateElement
+-> It is a function which takes three arguments.
+    1. type
+    2. props
+    3. children
